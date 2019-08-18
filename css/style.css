@@ -97,7 +97,7 @@
 }
 .right-section .plan-wrapper .plan-details {
   width: 85%;
-  padding: 20px;
+  padding: 15px;
 }
 .right-section .plan-wrapper .plan-details .plan-heading {
   font-family: 'Montserrat Medium';
@@ -107,7 +107,7 @@
   background-color:#13BC9C; 
   float: right;
   text-align: center;
-  padding: 27px 0;
+  padding: 22px 0;
   font-family: 'Montserrat Medium';
   margin-bottom: 0;
 }
@@ -137,7 +137,7 @@
 }
 @media screen and  (max-width: 1200px) {
   .right-section .plan-wrapper .plan-amount.first {
-    padding: 36px 0;
+    padding: 32px 0;
   }
   .submit-btn {
   margin: 40px auto
@@ -186,7 +186,7 @@
 @media screen and  (max-width: 768px) {
     .right-section .plan-wrapper .plan-amount,
     .right-section .plan-wrapper .plan-amount.first {
-    padding: 28px 0;
+    padding: 20.5px 0;
     width: 20%;
   }
 
@@ -205,6 +205,7 @@
   }
   .right-section .plan-wrapper .plan-term-min-amt {
     font-size: 10px;
+    width: 130px;
   }
 }
 
