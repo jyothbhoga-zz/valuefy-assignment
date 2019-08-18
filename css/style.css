@@ -1,0 +1,213 @@
+.header-container {
+  background-color: #EFEFEF;
+  padding: 15px 40px 15px;
+}
+.header-container .logo {
+  height: 40px;
+  margin-left: 40px;
+}
+.header-container .close-btn {
+  float: right;
+  width: 20px;
+  padding-top: 10px;
+}
+.header-container .back-arrow {
+  width: 25px;
+}
+.top-section {
+  margin-top: 60px;
+}
+.top-section .portfolio {
+  text-align: center;
+}
+.top-section .portfolio-heading {
+  font-family: 'Montserrat Light';
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.top-section .heading-question {
+  font-family: 'Montserrat Medium';
+  font-size: 12px;
+}
+.top-section .options-container {
+  margin-top: 30px;
+}
+.top-section .options-container .option {
+  display: inline-block;
+}
+
+.top-section .options-container .option .option-content {
+  padding-left: 20px;
+}
+.top-section .options-container .option .option-content.last {
+  padding-left: 10;
+}
+.top-section .options-container .option .option-heading {
+  font-family: 'Montserrat Regular';
+  line-height: 1;
+  margin-bottom: 0;
+}
+.top-section .options-container .option .option-caption {
+  font-family: 'Montserrat Light';
+  font-size: 13px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.top-section .options-container .option .option-img {
+  position: absolute;
+  height: 35px;
+  top: 10px;
+  left: -10px;
+}
+.mid-section .left-section {
+  float: left;
+}
+.mid-section .left-section .left-desc-wrapper {
+  position: relative;
+}
+.mid-section .left-section .img-caption {
+  font-family: 'Montserrat Light';
+  line-height: 1;
+  font-size: 10px;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+.mid-section {
+  margin-top: 40px;
+}
+.mid-section .desc {
+  display: inline-block;
+}
+.mid-section .desc .img-description {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  font-family: 'Montserrat Medium';
+  transform: translate(-44%, -44%);
+}
+.right-section .plan-wrapper {
+  border: 1px solid #13BC9C;
+  margin: 10px;
+  border-right: none;
+}
+.right-section .plan-wrapper .plan {
+  display: inline-block;
+}
+.right-section .plan-wrapper .plan-details {
+  width: 85%;
+  padding: 20px;
+}
+.right-section .plan-wrapper .plan-details .plan-heading {
+  font-family: 'Montserrat Medium';
+}
+.right-section .plan-wrapper .plan-amount {
+  width: 15%;
+  background-color:#13BC9C; 
+  float: right;
+  text-align: center;
+  padding: 27px 0;
+  font-family: 'Montserrat Medium';
+  margin-bottom: 0;
+}
+.right-section .plan-wrapper .plan-term-min-amt {
+  float: left;
+  width: 200px;
+  margin-bottom: 0;
+  font-family: 'Montserrat Light';
+  font-size: 12px;
+}
+.right-section .plan-wrapper .values-inr {
+  position: absolute;
+  right: 14px;
+  font-size: 10px;
+  font-family: 'Montserrat Light';
+  margin-top: 5px;
+
+}
+.submit-btn {
+  display: block;
+  margin: 80px auto;
+  padding: 10px 30px;
+  font-family: 'Montserrat Medium';
+  background-color: #12d6b0;
+  color: #ffffff;
+  border: none;
+}
+@media screen and  (max-width: 1200px) {
+  .right-section .plan-wrapper .plan-amount.first {
+    padding: 36px 0;
+  }
+  .submit-btn {
+  margin: 40px auto
+  }
+}
+@media screen and  (max-width: 992px) {
+  .header-container {
+    padding: 15px 20px;
+  }
+  .header-container .logo {
+    display: block;
+    margin: 0 auto;    
+  }
+  .header-container .back-arrow {
+    position: absolute;
+    top: 22px;
+  }
+  .header-container .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  .top-section .options-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 280px;
+  }
+  .top-section .option {
+    margin-bottom: 20px;
+  }
+  .left-section .left-desc-wrapper .equity-debt-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .left-section .img-caption {
+    text-align: center;
+  }
+  .right-section {
+    margin-top: 40px;
+  }
+  .right-section .plan-wrapper .values-inr {
+    right: 24px;
+  }
+}
+@media screen and  (max-width: 768px) {
+    .right-section .plan-wrapper .plan-amount,
+    .right-section .plan-wrapper .plan-amount.first {
+    padding: 28px 0;
+    width: 20%;
+  }
+
+  .top-section .options-container {
+    transform: translateX(-40%);
+    width: 260px;
+  }
+
+  .right-section .plan-wrapper .plan-details {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .right-section .plan-wrapper .plan-details .plan-heading {
+    margin-bottom: 0;
+  }
+  .right-section .plan-wrapper .plan-term-min-amt {
+    font-size: 10px;
+  }
+}
+
+/* @media screen and  (max-width: 992px) {
+
+} */
