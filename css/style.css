@@ -22,12 +22,14 @@
 }
 .top-section .portfolio-heading {
   font-family: 'Montserrat Light';
+  color: #5b5b5b;
   text-transform: capitalize;
   margin-bottom: 0;
 }
 .top-section .heading-question {
   font-family: 'Montserrat Medium';
   font-size: 12px;
+  color: #808080;
 }
 .top-section .options-container {
   margin-top: 30px;
@@ -38,6 +40,7 @@
 
 .top-section .options-container .option .option-content {
   padding-left: 20px;
+  color: #4d4d4d;
 }
 .top-section .options-container .option .option-content.last {
   padding-left: 10;
@@ -46,13 +49,15 @@
   font-family: 'Montserrat Regular';
   line-height: 1;
   margin-bottom: 0;
+  font-size: 38px;
 }
 .top-section .options-container .option .option-caption {
   font-family: 'Montserrat Light';
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1;
   margin-bottom: 0;
   text-transform: capitalize;
+  width: 120px;
 }
 .top-section .options-container .option .option-img {
   position: absolute;
@@ -69,6 +74,7 @@
 .mid-section .left-section .img-caption {
   font-family: 'Montserrat Light';
   line-height: 1;
+  color: #666666;
   font-size: 10px;
   margin-top: 15px;
   text-transform: capitalize;
@@ -87,10 +93,19 @@
   font-family: 'Montserrat Medium';
   transform: translate(-44%, -44%);
 }
+.mid-section .desc .img-description .debt-text {
+  color: #12d6b0;
+}
+.mid-section .desc .img-description .equity-text {
+  color: #425b77;
+}
 .right-section .plan-wrapper {
   border: 1px solid #13BC9C;
   margin: 10px;
   border-right: none;
+}
+.right-section .plan-wrapper.aditya-birla {
+  border-left: 5px solid #13bc9c;
 }
 .right-section .plan-wrapper .plan {
   display: inline-block;
@@ -101,6 +116,7 @@
 }
 .right-section .plan-wrapper .plan-details .plan-heading {
   font-family: 'Montserrat Medium';
+  color: #666666;
 }
 .right-section .plan-wrapper .plan-amount {
   width: 15%;
@@ -110,6 +126,17 @@
   padding: 22px 0;
   font-family: 'Montserrat Medium';
   margin-bottom: 0;
+  color: #ffffff;
+  font-size: 21px;
+}
+.right-section .plan-wrapper .plan-amount.aditya-birla-amount {
+  background-color: #14a388;
+}
+.right-section .plan-wrapper .plan-amount.franklin-amount {
+  background-color: #13bc9c;
+}
+.right-section .plan-wrapper .plan-amount.icici-amount {
+  background-color: #425b77;
 }
 .right-section .plan-wrapper .plan-term-min-amt {
   float: left;
@@ -117,18 +144,24 @@
   margin-bottom: 0;
   font-family: 'Montserrat Light';
   font-size: 12px;
+  color: #666666;
+}
+.right-section .plan-wrapper .plan-term-min-amt .img-disc {
+  width: 8px;
+  margin-right: 10px;
+  margin-top: -3px;
 }
 .right-section .plan-wrapper .values-inr {
   position: absolute;
-  right: 14px;
+  right: 30px;
   font-size: 10px;
   font-family: 'Montserrat Light';
   margin-top: 5px;
-
+  color: #666666;
 }
 .submit-btn {
   display: block;
-  margin: 80px auto;
+  margin: 100px auto;
   padding: 10px 30px;
   font-family: 'Montserrat Medium';
   background-color: #12d6b0;
@@ -136,11 +169,14 @@
   border: none;
 }
 @media screen and  (max-width: 1200px) {
-  .right-section .plan-wrapper .plan-amount.first {
+  .right-section .plan-wrapper .plan-amount.aditya-birla-amount {
     padding: 32px 0;
   }
   .submit-btn {
   margin: 40px auto
+  }
+  .right-section .plan-wrapper .values-inr {
+    right: 14px;
   }
 }
 @media screen and  (max-width: 992px) {
@@ -180,13 +216,13 @@
     margin-top: 40px;
   }
   .right-section .plan-wrapper .values-inr {
-    right: 24px;
+    right: 20px;
   }
 }
 @media screen and  (max-width: 768px) {
     .right-section .plan-wrapper .plan-amount,
-    .right-section .plan-wrapper .plan-amount.first {
-    padding: 20.5px 0;
+    .right-section .plan-wrapper .plan-amount.aditya-birla-amount {
+    padding: 21px 0;
     width: 20%;
   }
 
@@ -205,10 +241,30 @@
   }
   .right-section .plan-wrapper .plan-term-min-amt {
     font-size: 10px;
-    width: 130px;
+    width: 150px;
+  }
+  .right-section .plan-wrapper .plan-term-min-amt .img-disc {
+    margin-right: 5px;
   }
 }
 
+@media screen and  (max-width: 576px) {
+  .right-section .plan-wrapper {
+    border-right: 1px solid #13BC9C;
+    display: inline-block;
+  }
+  .right-section .plan-wrapper .plan-details {
+    width: 100%;
+  }
+  .right-section .plan-wrapper .plan-amount, .right-section .plan-wrapper .plan-amount.aditya-birla-amount {
+    padding: 10px;
+    font-size: 16px;
+    width: 75px;
+  }
+  .right-section .plan-wrapper .values-inr {
+    bottom: -25px;
+  }
+}
 /* @media screen and  (max-width: 992px) {
 
 } */
