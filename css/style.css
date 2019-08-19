@@ -85,6 +85,9 @@
 .mid-section .desc {
   display: inline-block;
 }
+.mid-section .right-section {
+  margin-top: 25px;
+}
 .mid-section .desc .img-description {
   position: absolute;
   left: 50%;
@@ -178,6 +181,9 @@
   .right-section .plan-wrapper .values-inr {
     right: 14px;
   }
+  .mid-section .right-section {
+    margin-top: 0;
+  }
 }
 @media screen and  (max-width: 992px) {
   .header-container {
@@ -217,6 +223,9 @@
   }
   .right-section .plan-wrapper .values-inr {
     right: 20px;
+  }
+  .mid-section .right-section {
+    margin-top: 40px;
   }
 }
 @media screen and  (max-width: 768px) {
