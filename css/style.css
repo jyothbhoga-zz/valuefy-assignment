@@ -2,6 +2,7 @@
 .header-container {
   background-color: #EFEFEF;
   padding: 15px 40px 15px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,.1);
 }
 
 .header-container .logo {
